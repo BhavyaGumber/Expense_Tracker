@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import  ReactDOM  from "react-dom";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import  "./index.css"
+import {Provider} from "./context/context";
+import {SpeechProvider} from "@speechly/react-client"
+ReactDOM.render
+(
+    <SpeechProvider appId="2e578817-ba70-4f9b-8335-f887b34d56c3" language="en-US">
+    <Provider>
+<App/>
+</Provider>
+</SpeechProvider>
+, document.getElementById("root"));
