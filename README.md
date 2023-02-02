@@ -1,4 +1,5 @@
-![Screenshot (564)](https://user-images.githubusercontent.com/79220494/216381674-cfd0fbe6-7674-4573-8069-c9549093382f.png)
+![Screenshot (564)](https://user-images.githubusercontent.com/79220494/216383177-0cbb0d1f-0af2-4358-b7e6-3f643c33acc2.png)
+
 Expense Tracker allows users to record and manage their daily expenses, categorize them, and provides real-time insights.
 
 
