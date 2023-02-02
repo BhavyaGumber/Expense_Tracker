@@ -1,3 +1,8 @@
+![Screenshot (564)](https://user-images.githubusercontent.com/79220494/216381674-cfd0fbe6-7674-4573-8069-c9549093382f.png)
+Expense Tracker allows users to record and manage their daily expenses, categorize them, and provides real-time insights.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
